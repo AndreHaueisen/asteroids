@@ -22,6 +22,7 @@ def main():
 
         # time passed since last frame in seconds
         dt = clock.tick(FPS)/1000
+        player.update(dt)
 
 if __name__ == "__main__":
     main()
